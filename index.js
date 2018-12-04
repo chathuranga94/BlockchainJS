@@ -64,21 +64,12 @@ console.log(`Is BLOCKCHAIN valid: ${bibi_coin.isChainValid()}`);
 
 
 
-
-
-
-
-
-
-
-
-
 /*
-try {
-  const secret = 'abcdefg';
-  const hash = crypto.createHmac('sha256', secret).update('I love cupcakes').digest('hex');
-  console.log(hash);
-} catch (err) {
-  console.log('crypto support is disabled!');
-}
+    try {
+    const secret = 'abcdefg';
+    const hash = crypto.createHmac('sha256', secret).update('I love cupcakes').digest('hex');
+    console.log(hash);
+    } catch (err) {
+    console.log('crypto support is disabled!');
+    }
 */
